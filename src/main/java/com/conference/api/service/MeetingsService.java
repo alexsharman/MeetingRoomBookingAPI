@@ -1,7 +1,6 @@
 package com.conference.api.service;
 
 import com.conference.api.domain.Meeting;
-import com.conference.api.domain.Room;
 import com.conference.api.domain.User;
 import com.conference.api.repository.MeetingRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,9 +21,6 @@ import java.util.List;
 public class MeetingsService {
 
     private MeetingRepository meetingRepository;
-
-    @Autowired
-    private MeetingsService meetingsService;
 
     @Autowired
     private UserService userService;
@@ -52,7 +48,6 @@ public class MeetingsService {
 
     private Meeting createMeeting(Meeting newMeeting) {
         User user = userService.findUserByLogin(newMeeting.getUser().getLogin());
-//        Room room = roomsService.findRoomByName(newMeeting.getRoomName());
         newMeeting.setMeetingName(newMeeting.getMeetingName());
         newMeeting.setStartDate(newMeeting.getStartDate());
         newMeeting.setEndDate(newMeeting.getEndDate());
@@ -84,10 +79,10 @@ public class MeetingsService {
     }
 
     public List<Meeting> findMeetingsByNameAndStartDate(String name, Date start, Date end) {
-        return meetingRepository.findByStartDateGreaterThan( start);
+        return meetingRepository.findByStartDateGreaterThan(start);
     }
 
-    public List<Meeting> findByRoomName(String roomName){
+    public List<Meeting> findByRoomName(String roomName) {
         return meetingRepository.findByRoomName(roomName);
     }
 

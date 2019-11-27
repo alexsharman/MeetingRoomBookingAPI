@@ -41,10 +41,6 @@ public class UserControllerTestSuite {
                 .addFilter(springSecurityFilterChain).build();
     }
 
-//TODO: !!!!!!!!!!!!!!!!!!!!!!!!!!!
-//    Finish tests
-//
-
     @Before
     public void obtainAccessToken() {
         final Map<String, String> params = new HashMap<String, String>();

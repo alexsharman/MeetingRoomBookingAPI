@@ -13,6 +13,7 @@ import java.util.List;
  */
 
 public interface MeetingRepository extends CrudRepository<Meeting, Long> {
+
     Meeting findByMeetingName(String meetingName);
 
     List<Meeting> findAll();
@@ -22,7 +23,5 @@ public interface MeetingRepository extends CrudRepository<Meeting, Long> {
     List<Meeting> findByRoomName(String roomName);
 
     List<Meeting> findByStartDateGreaterThan(Date start);
-
-//    List<Meeting> findByRoomNameAndStartDateGreaterThan(String roomName, Date startDate);
 
 }

@@ -12,10 +12,13 @@ import java.util.List;
 public interface GenericService {
 
     User findByUsername(String username);
+
     User saveUser(User newUser);
+
     List<User> findAllUsers();
 
     List<Room> findAllRooms();
+
     Room findByRoomName(String roomName);
 
 }

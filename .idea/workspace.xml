@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="153c2b97-2297-4e66-91f5-5fdf940fda33" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-conference-booking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-conference-booking.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-jwt.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/conference/api/controller/RoomsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conference/api/controller/RoomsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/conference/api/repository/MeetingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conference/api/repository/MeetingRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/conference/api/service/GenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conference/api/service/GenericService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/conference/api/service/MeetingsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conference/api/service/MeetingsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/conference/api/controller/UserControllerTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conference/api/controller/UserControllerTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/conference/api/controller/RoomsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/conference/api/controller/RoomsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/conference/api/service/MeetingsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/conference/api/service/MeetingsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/conference/api/controller/UserControllerTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/conference/api/controller/UserControllerTestSuite.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,9 +26,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1UCH3AprVZz0tJ0bcF7VAYQfY3E" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -43,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BookingApiApplication">
     <configuration name="BookingApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.conference.api.BookingApiApplication" />
       <module name="springboot-conference-booking" />
@@ -57,9 +74,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserControllerTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-conference-booking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.conference.api.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.conference.api.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.conference.api.controller.UserControllerTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BookingApiApplication" />
+        <item itemvalue="JUnit.UserControllerTestSuite" />
       </list>
     </recent_temporary>
   </component>
