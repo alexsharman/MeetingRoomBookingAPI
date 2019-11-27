@@ -19,6 +19,8 @@ public interface MeetingRepository extends CrudRepository<Meeting, Long> {
 
     Integer removeByMeetingName(String meetingName);
 
+    List<Meeting> findByRoomName(String roomName);
+
     List<Meeting> findByStartDateGreaterThan(Date start);
 
 //    List<Meeting> findByRoomNameAndStartDateGreaterThan(String roomName, Date startDate);

@@ -17,4 +17,5 @@ public interface GenericService {
 
     List<Room> findAllRooms();
     Room findByRoomName(String roomName);
+
 }

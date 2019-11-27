@@ -87,5 +87,9 @@ public class MeetingsService {
         return meetingRepository.findByStartDateGreaterThan( start);
     }
 
+    public List<Meeting> findByRoomName(String roomName){
+        return meetingRepository.findByRoomName(roomName);
+    }
+
 
 }
