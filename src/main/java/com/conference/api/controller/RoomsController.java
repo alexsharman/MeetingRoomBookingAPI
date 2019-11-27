@@ -1,7 +1,7 @@
 package com.conference.api.controller;
 
 import com.conference.api.domain.Room;
-import com.conference.api.service.GenericService;
+import com.conference.api.service.RoomsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -23,15 +23,15 @@ import java.util.List;
 public class RoomsController {
 
     @Autowired
-    GenericService roomsService;
+    RoomsService roomsService;
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public ResponseEntity<List<Room>> listAllRooms() {
-        return new ResponseEntity(roomsService.findAllRooms(), HttpStatus.OK);
+        return new ResponseEntity(roomsService.findAll(), HttpStatus.OK);
     }
 
     @RequestMapping(value = "/{roomName}", method = RequestMethod.GET)
     public ResponseEntity<Room> findRoomsByName (@PathVariable String roomName) {
-        return new ResponseEntity(roomsService.findByRoomName(roomName), HttpStatus.OK);
+        return new ResponseEntity(roomsService.findRoomByName(roomName), HttpStatus.OK);
     }
 }

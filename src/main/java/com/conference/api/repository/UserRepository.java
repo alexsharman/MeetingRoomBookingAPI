@@ -13,8 +13,6 @@ public interface UserRepository extends CrudRepository<User, Long> {
 
     List<User> findAll();
 
-    List<User> removeById(String id);
-
     Integer removeByLogin(String login);
 
 }

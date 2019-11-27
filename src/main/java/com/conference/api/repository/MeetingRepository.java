@@ -1,8 +1,10 @@
 package com.conference.api.repository;
 
 import com.conference.api.domain.Meeting;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
+import java.util.Collection;
 import java.util.Date;
 import java.util.List;
 
@@ -23,5 +25,7 @@ public interface MeetingRepository extends CrudRepository<Meeting, Long> {
     List<Meeting> findByRoomName(String roomName);
 
     List<Meeting> findByStartDateGreaterThan(Date start);
+
+
 
 }

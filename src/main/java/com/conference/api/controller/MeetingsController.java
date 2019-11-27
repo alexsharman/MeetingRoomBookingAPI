@@ -84,7 +84,8 @@ public class MeetingsController {
 
     @PreAuthorize("hasAuthority('ADMIN') or hasAuthority('USER')")
     @RequestMapping(value = "/{name}", method = RequestMethod.GET)
-    public List<Meeting> listAllMeetingsForRoomNameAndStartDate(@RequestBody Meeting meetingDetails, @PathVariable String name) {
+    public List<Meeting> listAllMeetingsForRoomNameBetweenDates(@RequestBody Meeting meetingDetails, @PathVariable String name) {
         return meetingsService.findMeetingsByNameAndStartDate(name, meetingDetails.getStartDate(), meetingDetails.getEndDate());
     }
+
 }

@@ -2,26 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="153c2b97-2297-4e66-91f5-5fdf940fda33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/config/OAuthHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/RoomServiceTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/UserServiceTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-conference-booking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-conference-booking.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jwt.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/conference/api/controller/MeetingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conference/api/controller/MeetingsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/conference/api/controller/ResourceController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/conference/api/controller/RoomsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conference/api/controller/RoomsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/conference/api/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conference/api/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/conference/api/domain/RandomCity.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/conference/api/repository/MeetingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conference/api/repository/MeetingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/conference/api/service/GenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conference/api/service/GenericService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/conference/api/repository/RandomCityRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/conference/api/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conference/api/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/conference/api/service/GenericService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/conference/api/service/MeetingsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conference/api/service/MeetingsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/conference/api/controller/UserControllerTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conference/api/controller/UserControllerTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/conference/api/service/impl/AppUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/conference/api/service/impl/GenericServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/conference/api/BookingApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/conference/api/controller/UserControllerTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conference/api/controller/ControllerTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/conference/api/controller/MeetingsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/conference/api/controller/MeetingsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/conference/api/controller/ResourceController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/conference/api/controller/RoomsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/conference/api/controller/RoomsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/conference/api/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/conference/api/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/conference/api/domain/RandomCity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/conference/api/repository/MeetingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/conference/api/repository/MeetingRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/conference/api/repository/RandomCityRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/conference/api/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/conference/api/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/conference/api/service/GenericService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/conference/api/service/MeetingsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/conference/api/service/MeetingsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/conference/api/controller/UserControllerTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/conference/api/controller/UserControllerTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/conference/api/service/impl/AppUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/conference/api/service/impl/GenericServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/conference/api/BookingApiApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/conference/api/controller/UserControllerTestSuite.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,7 +71,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1UCH3AprVZz0tJ0bcF7VAYQfY3E" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -45,6 +84,7 @@
       <recent name="com.conference.api.controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="service" />
       <recent name="com.conference.api.service" />
     </key>
   </component>
@@ -60,39 +100,92 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BookingApiApplication">
-    <configuration name="BookingApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.conference.api.BookingApiApplication" />
+  <component name="RunManager" selected="JUnit.RoomServiceTestSuite">
+    <configuration name="RoomServiceTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-conference-booking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.conference.api.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.RoomServiceTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserControllerTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoomServiceTestSuite.createNewRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-conference-booking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.conference.api.controller.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.conference.api.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.conference.api.controller.UserControllerTestSuite" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.RoomServiceTestSuite" />
+      <option name="METHOD_NAME" value="createNewRoom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-conference-booking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.UserServiceTestSuite" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTestSuite.createNewUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-conference-booking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.UserServiceTestSuite" />
+      <option name="METHOD_NAME" value="createNewUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTestSuite.modifyUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-conference-booking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.UserServiceTestSuite" />
+      <option name="METHOD_NAME" value="modifyUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BookingApiApplication" />
-        <item itemvalue="JUnit.UserControllerTestSuite" />
+        <item itemvalue="JUnit.RoomServiceTestSuite" />
+        <item itemvalue="JUnit.RoomServiceTestSuite.createNewRoom" />
+        <item itemvalue="JUnit.UserServiceTestSuite" />
+        <item itemvalue="JUnit.UserServiceTestSuite.createNewUser" />
+        <item itemvalue="JUnit.UserServiceTestSuite.modifyUser" />
       </list>
     </recent_temporary>
   </component>

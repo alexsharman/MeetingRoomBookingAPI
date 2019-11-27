@@ -31,9 +31,8 @@ public class UserController {
     }
 
     @PreAuthorize("hasAuthority('ADMIN')")
-    @PutMapping(path = "/{uid}")
+    @PutMapping(path = "/{login}")
     public User updateUser(@Valid @RequestBody User newUser, @PathVariable String login) {
-        if (userService.checkUserRole("ADMIN")) {
             User currentUser = userService.findUserByLogin(login);
             if (currentUser != null) {
                 currentUser.setName(newUser.getName());
@@ -42,9 +41,6 @@ public class UserController {
             } else {
                 throw new ResponseStatusException(HttpStatus.NOT_FOUND, "User not found.");
             }
-        } else {
-            throw new ResponseStatusException(HttpStatus.FORBIDDEN, "Access forbidden.");
-        }
     }
 
     @PreAuthorize("hasAuthority('ADMIN')")
